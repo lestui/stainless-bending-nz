@@ -7,9 +7,14 @@ export default function Home() {
   })
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    setSubmitted(true)
+    const res = await fetch('https://formspree.io/f/xzdwdyny', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    })
+    if (res.ok) setSubmitted(true)
   }
 
   const services = [
