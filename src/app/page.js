@@ -68,7 +68,7 @@ export default function Home() {
       {/* NAV */}
       <nav className="nav">
         <a href="/" className="nav-logo">
-          <img src="/images/logo.jpg" alt="Stainless Bending 2016 Limited" style={{ height: '42px', width: 'auto' }} />
+          <img src="/images/logo.png" alt="Stainless Bending 2016 Limited" style={{ height: '42px', width: 'auto' }} />
         </a>
         <ul className="nav-links">
           <li><a href="#services">Services</a></li>
