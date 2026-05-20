@@ -63,12 +63,7 @@ export default function Home() {
       {/* NAV */}
       <nav className="nav">
         <a href="/" className="nav-logo">
-          {/* Logo placeholder — replace with <img src="/images/logo.png" alt="Stainless Bending NZ" /> once available */}
-          <div className="nav-logo-badge">SB</div>
-          <div>
-            <div className="nav-logo-text">Stainless Bending</div>
-            <div className="nav-logo-sub">New Zealand</div>
-          </div>
+          <img src="/images/logo.jpg" alt="Stainless Bending 2016 Limited" style={{ height: '42px', width: 'auto' }} />
         </a>
         <ul className="nav-links">
           <li><a href="#services">Services</a></li>

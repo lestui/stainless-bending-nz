@@ -3,18 +3,18 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:        #0a0b0c;
-  --bg2:       #0f1113;
-  --bg3:       #161a1d;
-  --border:    #222629;
-  --steel:     #8fa3b0;
-  --steel-lt:  #c4d4dc;
-  --steel-dk:  #4a6070;
-  --white:     #e8edf0;
-  --accent:    #2e9cca;
-  --accent2:   #1a7fa8;
-  --text:      #9fb3be;
-  --text-dim:  #4a6070;
+  --bg:        #0f0f0f;
+  --bg2:       #151515;
+  --bg3:       #1c1c1c;
+  --border:    #2a2a2a;
+  --steel:     #a0a0a0;
+  --steel-lt:  #d0d0d0;
+  --steel-dk:  #555555;
+  --white:     #f0f0f0;
+  --accent:    #e8510a;
+  --accent2:   #c44008;
+  --text:      #a0a0a0;
+  --text-dim:  #555555;
   --font-head: 'Oswald', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
