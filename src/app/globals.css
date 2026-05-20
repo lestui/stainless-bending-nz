@@ -39,7 +39,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 .nav-cta:hover { background: var(--accent2); }
 
 /* HERO */
-.hero { min-height: auto; display: flex; flex-direction: column; justify-content: flex-start; padding: 12rem 2rem 3rem; position: relative; overflow: hidden; }
+.hero { min-height: auto; display: flex; flex-direction: column; justify-content: flex-start; padding: 10rem 2rem 3rem; position: relative; overflow: hidden; }
 .hero-bg { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(46,156,202,0.06) 0%, transparent 50%), repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,255,255,0.012) 60px, rgba(255,255,255,0.012) 61px), repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(255,255,255,0.012) 60px, rgba(255,255,255,0.012) 61px); }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,11,12,0.2) 0%, rgba(10,11,12,0.5) 40%, rgba(10,11,12,0.97) 100%); z-index: 1; }
 .hero-stripes { position: absolute; top: 0; right: 0; width: 40%; height: 100%; background: repeating-linear-gradient(175deg, transparent, transparent 2px, rgba(46,156,202,0.03) 2px, rgba(46,156,202,0.03) 3px); z-index: 1; }
