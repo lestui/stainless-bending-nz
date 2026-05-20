@@ -106,8 +106,8 @@ export default function Home() {
             <div className="stat-label">Years Experience</div>
           </div>
           <div className="stat">
-            <div className="stat-num">T316</div>
-            <div className="stat-label">Grade Stainless</div>
+            <div className="stat-num">AKL</div>
+            <div className="stat-label">Based</div>
           </div>
           <div className="stat">
             <div className="stat-num">NZ</div>
