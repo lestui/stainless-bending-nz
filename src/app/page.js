@@ -185,7 +185,7 @@ export default function Home() {
             <div className="section-label">Who We Are</div>
             <h2 className="section-title">Owned &<br />Operated.</h2>
             <p className="section-desc">
-              Stainless Bending (2016) Limited is owned and operated by Brett Mills and Michelle Keesing. Brett has over 20 years of experience in the field and was a shareholder in Stainless Bending Limited before purchasing the company outright in June 2016.
+              Stainless Bending (2016) Limited is owned and operated by Brett Mills. Brett has over 20 years of experience in the field and was a shareholder in Stainless Bending Limited before purchasing the company outright in June 2016.
             </p>
             <p className="section-desc" style={{ marginTop: '1rem' }}>
               We are committed to producing excellent service and quality workmanship at all times. Based in Penrose, Auckland, we service clients across New Zealand.
