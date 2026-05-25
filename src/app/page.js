@@ -87,9 +87,10 @@ export default function Home() {
         <div className="hero-content">
           <div className="hero-eyebrow">Auckland's Stainless Specialists</div>
           <h1>
-            Precision<br />
-            <span className="accent">Stainless</span><br />
-            <span className="dim">Bending.</span>
+            <h1>
+           We Bend.<br />
+          <span className="accent">You</span><br />
+          <span className="dim">Build.</span>
           </h1>
           <p className="hero-desc">
             Custom tube bending, grab rails, and stainless fabrication from our Penrose workshop. Over 20 years of experience. Send us your drawings and we'll get it done.
