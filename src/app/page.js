@@ -57,10 +57,10 @@ export default function Home() {
   ]
 
   const workItems = [
-    { title: 'Grab Rail Installation', sub: 'Residential • Auckland', hasImage: false },
-    { title: 'Custom Tube Bending', sub: 'Commercial • Stainless T316', hasImage: false },
-    { title: 'Pool Ladder Rails', sub: 'Marine Grade • T316', hasImage: false },
-    { title: 'Trade Bend Supply', sub: 'Batch Production', hasImage: false },
+    { title: 'Grab Rail Installation', sub: 'Residential • Auckland' },
+    { title: 'Custom Tube Bending', sub: 'Commercial • Stainless T316' },
+    { title: 'Pool Ladder Rails', sub: 'Marine Grade • T316' },
+    { title: 'Trade Bend Supply', sub: 'Batch Production' },
   ]
 
   return (
@@ -83,14 +83,12 @@ export default function Home() {
         <div className="hero-bg" />
         <div className="hero-overlay" />
         <div className="hero-stripes" />
-
         <div className="hero-content">
           <div className="hero-eyebrow">Auckland's Stainless Specialists</div>
           <h1>
-            <h1>
-           We Bend.<br />
-          <span className="accent">You</span><br />
-          <span className="dim">Build.</span>
+            We Bend.<br />
+            <span className="accent">You</span><br />
+            <span className="dim">Build.</span>
           </h1>
           <p className="hero-desc">
             Custom tube bending, grab rails, and stainless fabrication from our Penrose workshop. Over 20 years of experience. Send us your drawings and we'll get it done.
@@ -100,7 +98,6 @@ export default function Home() {
             <a href="#services" className="btn-outline">Our Services</a>
           </div>
         </div>
-
         <div className="hero-stats">
           <div className="stat">
             <div className="stat-num">20+</div>
@@ -173,7 +170,6 @@ export default function Home() {
         <div className="about-grid">
           <div className="about-img-wrap">
             <div className="about-img-placeholder">
-              {/* Replace with <img src="/images/workshop.jpg" alt="Our workshop" /> */}
               <span>🏭</span>
               <p>Workshop Photo Coming Soon</p>
             </div>
@@ -230,7 +226,6 @@ export default function Home() {
               <div className="contact-item-value">We aim to respond within 1 business day.</div>
             </div>
           </div>
-
           <div>
             {submitted ? (
               <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: '1rem' }}>
@@ -243,41 +238,21 @@ export default function Home() {
                 <div className="form-row">
                   <div className="form-group">
                     <label>Name *</label>
-                    <input
-                      type="text"
-                      placeholder="Your name"
-                      required
-                      value={formData.name}
-                      onChange={e => setFormData({...formData, name: e.target.value})}
-                    />
+                    <input type="text" placeholder="Your name" required value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
                   </div>
                   <div className="form-group">
                     <label>Email *</label>
-                    <input
-                      type="email"
-                      placeholder="your@email.com"
-                      required
-                      value={formData.email}
-                      onChange={e => setFormData({...formData, email: e.target.value})}
-                    />
+                    <input type="email" placeholder="your@email.com" required value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
                   </div>
                 </div>
                 <div className="form-row">
                   <div className="form-group">
                     <label>Phone</label>
-                    <input
-                      type="tel"
-                      placeholder="Your phone number"
-                      value={formData.phone}
-                      onChange={e => setFormData({...formData, phone: e.target.value})}
-                    />
+                    <input type="tel" placeholder="Your phone number" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} />
                   </div>
                   <div className="form-group">
                     <label>Service</label>
-                    <select
-                      value={formData.service}
-                      onChange={e => setFormData({...formData, service: e.target.value})}
-                    >
+                    <select value={formData.service} onChange={e => setFormData({...formData, service: e.target.value})}>
                       <option value="">Select a service</option>
                       <option>Custom Tube Bending</option>
                       <option>Supreme Grab Rails</option>
@@ -291,16 +266,9 @@ export default function Home() {
                 </div>
                 <div className="form-group">
                   <label>Project Details *</label>
-                  <textarea
-                    placeholder="Tell us about your project. Include dimensions, quantities, material grade if known, and any drawings or references you have."
-                    required
-                    value={formData.message}
-                    onChange={e => setFormData({...formData, message: e.target.value})}
-                  />
+                  <textarea placeholder="Tell us about your project. Include dimensions, quantities, material grade if known, and any drawings or references you have." required value={formData.message} onChange={e => setFormData({...formData, message: e.target.value})} />
                 </div>
-                <button type="submit" className="btn-primary" style={{ width: 'fit-content' }}>
-                  Send Enquiry →
-                </button>
+                <button type="submit" className="btn-primary" style={{ width: 'fit-content' }}>Send Enquiry →</button>
               </form>
             )}
           </div>
