@@ -18,42 +18,12 @@ export default function Home() {
   }
 
   const services = [
-    {
-      num: '01',
-      icon: '⟳',
-      name: 'Custom Tube Bending',
-      desc: 'Precision bends to your exact specifications. We work from a pattern, sketch, or drawing and use specialised bending equipment to get it right every time.',
-    },
-    {
-      num: '02',
-      icon: '⊞',
-      name: 'Supreme Grab Rails',
-      desc: 'Our signature stainless steel grab rails for residential, commercial, and accessible design applications. Strong, hygienic, and built to last.',
-    },
-    {
-      num: '03',
-      icon: '◈',
-      name: 'Rolling & Forming',
-      desc: 'Section rolling and forming for curves, arcs, and radius bends across stainless steel tube in a range of sizes and wall thicknesses.',
-    },
-    {
-      num: '04',
-      icon: '⬡',
-      name: 'Stainless Fabrication',
-      desc: 'Custom stainless fabrication for commercial kitchens, marine, construction, and industrial applications. One-offs or small runs welcome.',
-    },
-    {
-      num: '05',
-      icon: '◎',
-      name: 'Pool & Marine Rails',
-      desc: 'Pool ladders, pool rails, and marine-grade stainless fittings designed for corrosive environments using T316 grade stainless steel.',
-    },
-    {
-      num: '06',
-      icon: '⬢',
-      name: 'Trade Supply',
-      desc: 'Butt weld bends in T304 and T316 stainless, aluminium, and mild steel. Available on 2D and 1.5D radius. Ask about our seconds bin.',
-    },
+    { num: '01', icon: '⟳', name: 'Custom Tube Bending', desc: 'Precision bends to your exact specifications. We work from a pattern, sketch, or drawing and use specialised bending equipment to get it right every time.' },
+    { num: '02', icon: '⊞', name: 'Supreme Grab Rails', desc: 'Our signature stainless steel grab rails for residential, commercial, and accessible design applications. Strong, hygienic, and built to last.' },
+    { num: '03', icon: '◈', name: 'Rolling & Forming', desc: 'Section rolling and forming for curves, arcs, and radius bends across stainless steel tube in a range of sizes and wall thicknesses.' },
+    { num: '04', icon: '⬡', name: 'Stainless Fabrication', desc: 'Custom stainless fabrication for commercial kitchens, marine, construction, and industrial applications. One-offs or small runs welcome.' },
+    { num: '05', icon: '◎', name: 'Pool & Marine Rails', desc: 'Pool ladders, pool rails, and marine-grade stainless fittings designed for corrosive environments using T316 grade stainless steel.' },
+    { num: '06', icon: '⬢', name: 'Trade Supply', desc: 'Butt weld bends in T304 and T316 stainless, aluminium, and mild steel. Available on 2D and 1.5D radius. Ask about our seconds bin.' },
   ]
 
   const workItems = [
@@ -111,6 +81,10 @@ export default function Home() {
             <div className="stat-num">NZ</div>
             <div className="stat-label">Made & Owned</div>
           </div>
+        </div>
+        <div className="hero-scroll">
+          <span>Scroll</span>
+          <div className="hero-scroll-arrow">↓</div>
         </div>
       </section>
 
